@@ -2,5 +2,29 @@
     --primary-white: #FFFFFF;
     --secondary-grey: #C0C0C0;
     --blue-button: #167BF7;
-    --blackground-color: #00030c;
+    --bg-color: #00030c;
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+.title-presentation{
+    color: var(--primary-white);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* Set content height to 100% of the viewport device */
+    height: 100vh;
+}
+
+.main{
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
